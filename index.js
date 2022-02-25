@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-export default class MySurvey extends React.Component {
+export class MySurvey extends React.Component {
   render() {
     return (
       <View>
