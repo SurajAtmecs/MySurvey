@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, AppRegistry } from "react-native";
 
 export class MySurvey extends React.Component {
   render() {
@@ -10,3 +10,5 @@ export class MySurvey extends React.Component {
     );
   }
 }
+
+export default AppRegistry.registerComponent("MySurvey", MySurvey);
